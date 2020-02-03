@@ -11,14 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @GetMapping("/hello")
     public  String  getHello(){
-        return "范家怡";
+        return "范佳怡";
     }
-    @GetMapping("/index")
-    public String getIndex(){
-        return "index";
-    }
-    @GetMapping("/second")
-    public String getSecond(){
-        return "00";
-    }
+
 }
