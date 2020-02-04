@@ -1,0 +1,11 @@
+#四要素
+spring:
+  datasource:
+    driver-class-name:  com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/transport?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+    username: root
+    password: root
+mybatis:
+  type-aliases-package: com.jun.pojo
+  mapper-locations:
+   - classpath:/mapper/userDao.xml
